@@ -1,1 +1,1 @@
-here https://priyansh.xyz/projects/amazing-login
+here https://priyansh.xyz/projects/login-templates 
