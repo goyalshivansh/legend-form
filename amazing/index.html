@@ -1,0 +1,85 @@
+<!DOCTYPE html> 
+ <html>  
+ <head>  
+ <link rel="shortcut icon" href="https://priyansh.vercel.app/favicon/priyansh.ico" type="image/x-icon"> 
+ <meta charset="UTF-8" />  
+ <meta name="viewport" content="width=device-width, initial-scale=1.0" /> 
+ <title>Amazing Login</title> 
+     <meta property="og:title" content="Amazing Login">  
+     <meta property="og:image" content="/c/avatar/priyansh.png">  
+     <meta property="og:description" content="Just a diffrent find of login interface.">  
+     <meta property="og:site_name" content="Priyansh">  
+     <meta property="og:url" content="">  
+     <meta name="theme-color" content="#0E6DF0"> 
+ <style> 
+   
+ .outer{   
+ margin:auto;  
+ height:300px;  
+ width:400px;  
+ border:2px solid black;  
+ position:relative  
+ }  
+ p{  
+ margin-left:80px;  
+ }  
+ .in{  
+ margin-left:80px;  
+ padding:10px  
+ }  
+ #bt{  
+ margin-top:20px;  
+ position:absolute;  
+ left:150px;  
+ }  
+ #bt:hover{  
+ background:green;  
+ font-size:13px;  
+ cursor:pointer;  
+ color:white;  
+ }  
+ </style>  
+ <script>  
+ function fa(){  
+ if(a.value=="" || b.value==""){  
+ f()  
+ document.getElementById("a").style.border="3px solid red"  
+ document.getElementById("b").style.border="3px solid red"  
+ bt.value="😂😂"  
+ }  
+ else{  
+ document.getElementById("a").style.border="3px solid green"  
+ document.getElementById("b").style.border="3px solid green"  
+ bt.value="Submit Now 😎🤏"  
+ bt.style.left="120px";  
+ }  
+ }  
+ flag=1  
+ function f(){  
+ if(flag==1){  
+ bt.style.left="210px"  
+ flag=2  
+ }  
+ else if(flag==2){  
+ bt.style.left="80px"  
+ flag=1  
+ }  
+ }  
+ </script>  
+ </head>  
+ <body>  
+ <div class="outer">  
+ <h1 style="text-align:center">Priyansh ...</h1>  
+ <p>Email</p>  
+ <input class="in" type="text" placeholder="Enter Email" id="a"/>  
+ <p>Password</p>  
+ <input class="in" type="password" placeholder="Enter password" id="b"/>  
+ <br>  
+ <input type="submit" onmouseenter="fa()" onclick="alert('Alright')" id="bt" />  
+   
+ </div>  
+  <p align="center" style="font-size:20px;"> preffered to open in a pc </p> 
+ </body>  
+   
+   
+ </html>
